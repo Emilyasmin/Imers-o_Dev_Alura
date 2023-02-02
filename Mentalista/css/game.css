@@ -61,7 +61,7 @@ section form input {
   border-radius: 15px;
 }
 
-section form button {
+section form #button {
   background-color: rgb(0, 0, 0);
   border-radius: 8px;
   border: 2px solid #ffffff;
@@ -73,7 +73,7 @@ section form button {
   padding: 10px;
 }
 
-section form button:disabled {
+section form #button:disabled {
   background-color: #eee;
   color: #aaa;
   cursor: auto;
