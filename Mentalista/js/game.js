@@ -10,7 +10,6 @@ function game() {
   var iterador = 0;
   console.log(numeroSecreto);
 
-  //A cada vez que envia uma nova tentativa, executa novamete.Corrigir isso!!!
   while (chute != numeroSecreto) {
     if (iterador != 0) {
       section.innerHTML = section.innerHTML + '<h1 id="reposta">Você já fez' + iterador + 'tentativas!</h1>';
